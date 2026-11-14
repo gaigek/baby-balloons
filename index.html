@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Baby Balloons</title>
+<meta name="description" content="Baby Balloons: a balloon-popping first game for babies and toddlers. Privacy policy and support.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --sky: #5bbef5; --ink: #1d2733; --muted: #5a6876; --card: #ffffff; --bg: #eaf8ff; --accent: #e53935; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", Roboto, sans-serif;
+         color: var(--ink); background: linear-gradient(#5bbef5 0, #bfe8ff 260px, var(--bg) 520px) no-repeat, var(--bg); }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { text-align: center; color: #fff; margin-bottom: 28px; }
+  header img { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 8px 24px rgba(0,0,0,.18); }
+  header h1 { margin: 14px 0 4px; font-size: 2.2rem; text-shadow: 0 2px 6px rgba(0,0,0,.18); }
+  header p { margin: 0; font-size: 1.1rem; opacity: .95; }
+  nav { display: flex; justify-content: center; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+  nav a { background: rgba(255,255,255,.9); color: var(--ink); text-decoration: none; padding: 8px 16px; border-radius: 999px; font-weight: 600; }
+  section { background: var(--card); border-radius: 20px; padding: 24px; margin: 18px 0; box-shadow: 0 4px 16px rgba(30,80,120,.08); }
+  h2 { margin-top: 0; font-size: 1.4rem; }
+  h3 { margin-bottom: 4px; font-size: 1.05rem; }
+  p, li { color: var(--ink); }
+  .muted { color: var(--muted); font-size: .95rem; }
+  ul { padding-left: 1.2em; }
+  a { color: #1e6fd0; }
+  .button { display: inline-block; background: var(--accent); color: #fff; padding: 10px 18px; border-radius: 12px; text-decoration: none; font-weight: 700; }
+  footer { text-align: center; color: var(--muted); font-size: .9rem; margin-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="Baby Balloons app icon">
+    <h1>Baby Balloons</h1>
+    <p>A happy first game for little fingers</p>
+    <nav><a href="#privacy">Privacy</a><a href="#support">Support</a></nav>
+  </header>
+
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p class="muted">Last updated: November 13, 2026</p>
+    <p><strong>Baby Balloons does not collect, store, or share any personal information.</strong></p>
+    <ul>
+      <li>No accounts, sign-ins, or personal details are ever requested.</li>
+      <li>The app does not connect to the internet.</li>
+      <li>There are no ads, no in-app purchases, no analytics, and no tracking of any kind.</li>
+      <li>The only things saved are the game settings a parent chooses, such as balloon speed or whether the voice is on. They stay on the device and are deleted when the app is deleted.</li>
+      <li>The optional voice is produced on the device by iOS's built-in voices. Nothing is recorded or sent anywhere.</li>
+    </ul>
+    <p>Because no information is collected, there is nothing to view, export, or delete. Baby Balloons is designed for young children and complies with Apple's Kids category requirements and children's privacy laws such as COPPA, because no data is collected from anyone.</p>
+  </section>
+
+  <section id="support">
+    <h2>Support</h2>
+
+    <h3>How do I open the grown-up settings?</h3>
+    <p>Touch and hold the small lock button at the top of the game for 3 seconds, until the ring fills.</p>
+
+    <h3>How do I keep my child from leaving the game?</h3>
+    <p>iPhone and iPad let only a parent lock a game, using Apple's Guided Access:</p>
+    <ol>
+      <li>Open the Settings app → Accessibility → Guided Access, turn it on, and set a passcode under Passcode Settings.</li>
+      <li>Open Baby Balloons, triple-click the side button (or Home button), and tap Start.</li>
+      <li>To leave, triple-click again and enter your passcode, or double-click if you use Face ID.</li>
+    </ol>
+
+    <h3>Can I change the speed or size of the balloons?</h3>
+    <p>Yes. In the grown-up settings you can choose slow, medium, or fast; big, bigger, or biggest; and how many balloons appear.</p>
+
+    <h3>Something isn't working, or I have an idea</h3>
+    <p>We'd love to hear from you.</p>
+    <p><a class="button" href="https://github.com/gaigek/baby-balloons/issues/new">Contact us</a></p>
+    <p class="muted">The button opens a simple form on GitHub. A free GitHub account is needed to send it.</p>
+  </section>
+
+  <footer>© 2026 Gaige Koors</footer>
+</main>
+</body>
+</html>
